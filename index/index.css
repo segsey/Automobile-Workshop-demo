@@ -1,5 +1,6 @@
 /* hero section */
 .hero-bg{
+  background-image: url(../hero-bg.jpg);
   height: 80vh;
 }
 .hero-btn:link,
