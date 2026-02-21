@@ -1,0 +1,19 @@
+.our-mission-bg{
+    background-color: #010a16;
+}
+.our-mission-btn-1,
+.our-mission-btn-2:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.our-mission-btn-2,
+.our-mission-btn-1:hover{
+    background-color: white;
+    border: 2px solid white;
+    color: #061d3a;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}

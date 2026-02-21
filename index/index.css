@@ -1,0 +1,51 @@
+/* hero section */
+.hero-bg{
+  height: 80vh;
+}
+.hero-btn:link,
+.hero-btn:visited{
+  background-color: #004aad;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.hero-btn:hover{
+  color: #061d3a;
+}
+/* hero end */
+
+/* briefly about us start */
+.brief-about-us-btn:link,
+.brief-about-us-btn:visited{
+  background-color: #004aad;
+  color: white;
+  transition: all 0.4s ease;
+}
+.brief-about-us-btn:hover{
+  background-color: #061d3a;
+}
+/* briefly about us end */
+
+/* explore our services start */
+.explore-our-services-btn:link,
+.explore-our-services-btn:visited{
+  background-color: #004aad;
+  color: white;
+  transition: all 0.4s ease;
+}
+.explore-our-services-btn:hover{
+  background-color: white;
+  color: #004aad;
+}
+.explore-our-services-btn:active{
+  font-size: larger;
+}
+/* explore our services end */
+
+/* stats start */
+.stats-bg{
+  background: linear-gradient(to top, #8eabcf, white);
+}
+.stats-img{
+  background-color: #bac7d8;
+}
+/* stats end */

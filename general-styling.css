@@ -1,0 +1,48 @@
+html, body {
+  overflow-x: hidden;
+}
+.nav-link:hover{
+  color: #004aad;
+}
+.contact-us-btn{
+  background-color: #004aad;
+  color: white;
+}
+.hero-bg{
+  background-image: url(../hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.rammetto-one-regular{
+  font-family: "Rammetto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(90deg, #ff512f, #f09819);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.general-heading{
+  color: #061d3a;
+}
+
+/* book a service start */
+.book-a-service-bg{
+  background-color: #061d3a;
+}
+.book-service-btn{
+  border: none;
+  background-color: #004aad;
+  color: white;
+  transition: all 0.4s ease;
+}
+.book-service-btn:hover{
+  color: #061d3a;
+}
+/* book a service end */
+
+/* copyrights start */
+.copyright-bg{
+  background-color: #010a16;
+}
+/* copyrights end */
