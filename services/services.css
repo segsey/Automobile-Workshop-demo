@@ -1,0 +1,18 @@
+.unique-approach-bg{
+    background-image: url(./unique-approach-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.unique-approach-icon{
+    background-color: #004bad4f;
+}
+.cta-btn:link,.cta-btn:visited{
+    background-color: #004bad;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.cta-btn:hover{
+    color: #061d3a;
+}

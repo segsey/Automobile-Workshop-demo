@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comp-name | About the company</title>
+    <title>Comp-name | Services</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="services.css">
@@ -12,8 +12,311 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+    <!-- animate link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm" id="services">
+        <div class="container py-1 py-md-2">
+            <a class="navbar-brand" href="#">
+                <img src="../company-logo/company-logo-wbg.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                <span class="">
+                    Comp-name
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-underline mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-inactive" href="../index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-inactive" href="../about/about.html">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-link-current" style="color: #004aad;" aria-current="page" href="#services">
+                            Services
+                        </a>
+                    </li>
+                </ul>
+                <div class="pe-5">
+                    <a class="btn pe-4 py-2 contact-us-btn" href="../contact/contact.html" style="background-color: #004aad; color: white;">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- hero start -->
+    <div class="hero-bg">
+        <div class="container py-3 py-md-5">
+            <div class="text-white text-center" data-aos="zoom-in">
+                <div class="h6 h5-sm">
+                    // Our Services //
+                </div>
+                <h1 class="rammetto-one-regular my-3 mx-auto" style="max-width: 700px;">
+                    Reliable Repairs, Exceptional Service.
+                </h1>
+                <div class="h5 h4-sm mb-3 mx-auto" style="max-width: 600px;">
+                    From routine maintenance to complex repairs, 
+                    we make sure your vehicle performs at its best.
+                </div>
+                <!-- cta -->
+                <div class="text-center mt-5">
+                    <a href="../contact/contact.html" class="hero-btn h6 h5-md py-2 px-3 py-md-3 px-md-4 rounded-5">
+                        Book Now!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero end -->
+
+    <!-- our services start -->
+    <div class="bg-body-tertiary">
+        <div class="container py-5">
+            <h1 class="text-center my-2">
+                List of Our Services
+            </h1>
+
+            <div class="d-flex flex-wrap gap-3 justify-content-center align-items-center align-items-stretch pt-4 pb-2">
+                <!-- 1 -->
+                <div class="col-11 col-sm-10 col-lg-3 mb-3 bg-white px-0 rounded">
+                    <div>
+                        <img src="../index/services-img/engine-diagnostics.jpg" class="img-fluid rounded-top" alt="">
+                    </div>
+                    <div class="text-center p-3">
+                        <h4 class="general-heading">
+                            Engine Diagnostics & Repair
+                        </h4>
+                        <p>
+                            We quickly detect and fix engine issues using 
+                            advanced tools. Our team ensures peak performance 
+                            and efficiency for every vehicle.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-11 col-sm-10 col-lg-3 mb-3 bg-white px-0 rounded">
+                    <div>
+                        <img src="../index/services-img/brake-inspection.jpg" class="img-fluid rounded-top" alt="">
+                    </div>
+                    <div class="text-center p-3">
+                        <h4 class="general-heading">
+                            Brake Inspection & Replacement
+                        </h4>
+                        <p>
+                            Your safety is priority. We inspect and replace 
+                            brake pads, rotors, and calipers to keep your car 
+                            stopping reliably.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-11 col-sm-10 col-lg-3 mb-3 bg-white px-0 rounded">
+                    <div>
+                        <img src="../index/services-img/battery-and-electrical-repair.jpg" class="img-fluid rounded-top" alt="">
+                    </div>
+                    <div class="text-center p-3">
+                        <h4 class="general-heading">
+                            Electrical Repairs
+                        </h4>
+                        <p>
+                            From batteries to wiring, we keep your car’s 
+                            electrical systems running smoothly. Experts in 
+                            Toyota, Honda, Hyundai, Mercedes, BMW, and more.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-11 col-sm-10 col-lg-3 mb-3 bg-white px-0 rounded">
+                    <div>
+                        <img src="../index/services-img/suspension-and-steering.jpg" class="img-fluid rounded-top" alt="">
+                    </div>
+                    <div class="text-center p-3">
+                        <h4 class="general-heading">
+                            Suspension & Steering
+                        </h4>
+                        <p>
+                            Ride comfortably and drive safely. We check shocks, 
+                            struts, and steering components to ensure smooth handling.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="col-11 col-sm-10 col-lg-3 mb-3 bg-white px-0 rounded">
+                    <div>
+                        <img src="../index/services-img/oil-change.jpg" class="img-fluid rounded-top" alt="">
+                    </div>
+                    <div class="text-center p-3">
+                        <h4 class="general-heading">
+                            Oil Change
+                        </h4>
+                        <p>
+                            Preventive maintenance extends your car’s life. Oil changes, 
+                            fluid top-ups, and system inspections keep your vehicle 
+                            running like new.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col-11 col-sm-10 col-lg-3 mb-3 bg-white px-0 rounded">
+                    <div>
+                        <img src="../index/services-img/air-condition.jpg" class="img-fluid rounded-top" alt="">
+                    </div>
+                    <div class="text-center p-3">
+                        <h4 class="general-heading">
+                            Air Conditioning Maintenance
+                        </h4>
+                        <p>
+                            Stay cool and avoid overheating. We service radiators, 
+                            thermostats, and AC units to maintain a comfortable drive.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- cta -->
+            <div class="text-center mt-5">
+                <a href="../contact/contact.html" class="hero-btn h6 h5-md py-2 px-3 py-md-3 px-md-4 rounded-5">
+                    Book Now!
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- our servcies end -->
+     
+    <!-- our unique approach start -->
+    <div class="unique-approach-bg">
+        <div class="container-fluid py-4">
+            <div class="row gap-3 justify-content-center align-items-center align-items-stretch">
+                <!-- 1 -->
+                <div class="col-11 col-md-2 bg-light bg-gradient py-2 rounded">
+                    <div>
+                        <img src="../icon/person-check.png" class="img-fluid p-2 rounded-circle unique-approach-icon my-2" alt=""> <br>
+                        <span class="h5 general-heading">
+                            Expert Technicians
+                        </span>
+                    </div>
+                    <div>
+                        Our skilled team has the know-how to 
+                        handle every repair with precision and care.
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-11 col-md-2 bg-light bg-gradient py-2 rounded">
+                    <div>
+                        <img src="../icon/tools.png" class="img-fluid p-2 rounded-circle unique-approach-icon my-2" alt=""> <br>
+                        <span class="h5 general-heading">
+                            Modern Tools
+                        </span>
+                    </div>
+                    <div>
+                        We use state-of-the-art equipment to 
+                        quickly identify and fix issues the right way.
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-11 col-md-2 bg-light bg-gradient py-2 rounded">
+                    <div>
+                        <img src="../icon/payment.png" class="img-fluid p-2 rounded-circle unique-approach-icon my-2" alt=""> <br>
+                        <span class="h5 general-heading">
+                            Honest Pricing
+                        </span>
+                    </div>
+                    <div>
+                        No hidden fees, just clear pricing 
+                        and advice you can trust.
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-11 col-md-2 bg-light bg-gradient py-2 rounded">
+                    <div>
+                        <img src="../icon/fast.png" class="img-fluid p-2 rounded-circle unique-approach-icon my-2" alt=""> <br>
+                        <span class="h5 general-heading">
+                            Fast & Reliable
+                        </span>
+                    </div>
+                    <div>
+                        Get back on the road sooner with our 
+                        efficient, dependable service.
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="../contact/contact.html" class="h5-md cta-btn py-2 px-3 py-md-2 px-md-3 rounded-5">
+                    Book Your Service Now!
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- our unique approach end -->
+
+    <!-- copyrights start -->
+    <div class="copyright-bg">
+        <div class="container py-5">
+            <div class="pt-3 text-white row justify-content-center align-items-center">
+                <div class="col-10 col-md-3 text-center">
+                    <img src="../company-logo/cropped-company-logo-with-text.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-10 col-md-4">
+                    <div class="pb-2">
+                        <img src="../icon/location.png" class="img-fluid p-2 bg-dark rounded-circle" width="40" alt="">
+                        No. 5 place building, place, Abk.
+                    </div>
+                    <div class="pb-2">
+                        <img src="../icon/phone.png" class="img-fluid p-2 bg-dark rounded-circle" width="40" alt="">
+                        Phone Number
+                    </div>
+                    <div class="pb-2">
+                        <img src="../icon/mail.png" class="img-fluid p-2 bg-dark rounded-circle" width="40" alt="">
+                        auto-repair@email.com
+                    </div>
+                </div>
+                <div class="col-10 col-md-4">
+                    <h4>
+                        About
+                    </h4>
+                    <p>
+                        Delivering trusted automotive solutions 
+                        with skilled technicians, modern equipment, 
+                        and a focus on excellence. Your car is in 
+                        safe hands with us.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center text-white">
+                © 2026 Company, Inc
+            </p>
+        </div>
+    </div>
+    <!-- copyrights end -->
+
+
     
+
+    <!-- animation initialization -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
